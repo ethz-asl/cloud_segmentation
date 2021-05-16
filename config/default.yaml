@@ -1,0 +1,24 @@
+filtering:
+  enable: true
+  leaf_size: 0.01 # meters
+  min_distance: 0.0 # meters
+  max_distance: 3.0 # meters
+
+normal_estimation:
+  use_integral_image: false
+  max_depth_change_factor: 0.01
+  normal_smoothing_size: 7.0
+
+region_growing:
+  min_cluster_size: 100
+  number_of_neighbours: 30
+  smoothness_threshold_deg: 3.0
+  curvature_threshold: 1.0
+
+viewer:
+  enable: true
+  camera_intrinsics: [360, 0, 320, 0, 360, 240, 0, 0, 1]
+  write_frames_to_file: false
+
+debug:
+  verbose_log: false

@@ -1,0 +1,18 @@
+filtering:
+  enable: true
+  leaf_size: 0.01 # meters
+  max_distance: 4 # meters
+
+normal_estimation:
+max_depth_change_factor: 0.02
+  normal_smoothing_size: 10.0
+
+region_growing:
+  min_cluster_size: 100
+  number_of_neighbours: 15
+  smoothness_threshold_deg: 7
+  curvature_threshold:  1
+
+viewer:
+  enable: true
+  write_frames_to_file: false
