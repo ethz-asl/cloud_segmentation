@@ -1,0 +1,9 @@
+- git:
+    local-name: eigen_catkin
+    uri: git@github.com:ethz-asl/eigen_catkin.git
+- git:
+    local-name: glog_catkin
+    uri: git@github.com:ethz-asl/glog_catkin.git
+- git:
+    local-name: pcl_catkin
+    uri: git@github.com:ethz-asl/pcl_catkin.git
